@@ -1,0 +1,264 @@
+.img1{
+ width:200px; 
+}
+body{
+  background:#101820;
+  color:#ff2e63;
+}
+header{
+  background:#00c2ff;
+  text-align: center;
+}
+.obv{
+border: 7px solid #00c2ff;
+  text-align: center;
+}
+.tableBox{
+  border: 7px solid #00c2ff;
+  text-align: center;
+}
+.tableBox {
+  border: 7px solid #00c2ff;
+  text-align: center;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 2px solid #00c2ff;
+  padding: 8px 14px;
+}
+
+th {
+  background: #00c2ff;
+  color: #101820;
+}
+th, td {
+  border: 2px solid #00c2ff; 
+  padding: 8px 15px;
+}
+.formBox {
+  border: 7px solid #00c2ff;
+  padding: 20px 30px;
+  margin: 15px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #00c2ff;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  background: #1a2530;
+  border: 2px solid #00c2ff;
+  color: #fff;
+  font-family: inherit;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #ff2e63;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.radio-group label {
+  font-weight: normal;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.radio-group input[type="radio"] {
+  accent-color: #ff2e63;
+  cursor: pointer;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background: #ff2e63;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  background: #d4244f;
+}
+.contactsBox {
+  border: 7px solid #00c2ff;
+  padding: 25px 30px;
+  margin: 15px auto;
+  max-width: 700px;
+  text-align: left;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-icon {
+  font-size: 24px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.contact-item strong {
+  color: #00c2ff;
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.contact-item a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dashed #ff2e63;
+  transition: color 0.3s;
+}
+
+.contact-item a:hover {
+  color: #ff2e63;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 5px 12px;
+  background: #1a2530;
+  border: 2px solid #00c2ff;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.social-links a:hover {
+  background: #ff2e63;
+  border-color: #ff2e63;
+  color: #fff;
+}
+footer {
+  background: #0b1218;
+  border-top: 4px solid #00c2ff;
+  padding: 30px 20px 10px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 250px; 
+}
+
+.footer-col h3 {
+  color: #ff2e63; 
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.footer-col h4 {
+  color: #00c2ff;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.footer-col p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-col a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-col a:hover {
+  color: #ff2e63;
+}
+
+.footer-col .social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  color: #00c2ff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.footer-col .social-links a:hover {
+  color: #ff2e63;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(0, 194, 255, 0.3);
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #8899a6;
+}
